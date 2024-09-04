@@ -2,9 +2,8 @@
 /* Your CSS Code here. */
 .holder{
 	display:grid;
-	grid-template-rows:200px 200px;
-	grid-template-columns:200px 200px;
-	gap:10px;
+	grid-template-rows:repeat(2,200px);
+	grid-template-columns:repeat(2,200px);
 }
 /* .item-1{
 	
