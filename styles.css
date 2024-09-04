@@ -1,2 +1,14 @@
 
 /* Your CSS Code here. */
+.holder{
+	display:grid;
+	grid-template-rows:repeat(2,200px);
+	grid-template-columns:repeat(2,200px);
+	gap:10px;
+}
+/* .item-1{
+	
+	border:solid 2px blue;
+}
+/* .item-2{ */
+	
